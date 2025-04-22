@@ -1,64 +1,51 @@
-✈️ AirportManagement.NET
-.NET
-License
+# ✈️ AirportManagement.NET
 
-Une application moderne de gestion aéroportuaire développée avec .NET 6+, offrant des interfaces console et web pour administrer efficacement les opérations aéroportuaires.
+![.NET Version](https://img.shields.io/badge/.NET-6.0%2B-512BD4?logo=dotnet)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Architecture](https://img.shields.io/badge/Architecture-Modular-blueviolet)
 
-🚀 Fonctionnalités clés
-Gestion complète des vols (création, modification, suppression)
+A modern airport management system built with .NET 6+, featuring both console and web interfaces for efficient airport operations management.
 
-Gestion des passagers et réservations
+## 🌟 Key Features
 
-Suivi des avions et ressources
+- **✈️ Flight Management** - Full CRUD operations for flights
+- **👥 Passenger Handling** - Passenger registration and flight assignments
+- **🛩️ Aircraft Tracking** - Comprehensive aircraft resource management
+- **💻 Dual Interfaces** 
+  - Console application (CLI)
+  - Modern web interface (ASP.NET Core)
+- **🏗️ Clean Architecture** 
+  - Domain Layer
+  - Application Layer
+  - Infrastructure Layer
+  - Presentation Layer
 
-Double interface: Console (CLI) et Web (ASP.NET Core)
+## 🛠️ Prerequisites
 
-Architecture modulaire (Domain, Application, Infrastructure, UI)
+| Requirement | Installation |
+|-------------|--------------|
+| ![.NET](https://img.shields.io/badge/.NET-6.0+-512BD4?logo=dotnet) | [Download .NET 6+ SDK](https://dotnet.microsoft.com/download) |
+| ![Visual Studio](https://img.shields.io/badge/Visual_Studio-2022-5C2D91?logo=visualstudio) | [VS 2022](https://visualstudio.microsoft.com/) with ASP.NET & Desktop workloads |
+| ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?logo=microsoftsqlserver) | [SQL Server](https://www.microsoft.com/sql-server) or compatible DBMS |
 
-📦 Prérequis
-.NET 6+ SDK
 
-Visual Studio 2022 (avec workloads ASP.NET et .NET Desktop)
+🤝 Contributing
+We welcome contributions! Here's how:
 
-SQL Server (ou autre SGBD compatible)
+Fork the project
 
-⚡ Installation rapide
-bash
-git clone https://github.com/farahkouki/AirportManagement.NET.git
-cd AirportManagement.NET
-dotnet restore
-Configurer la chaîne de connexion dans appsettings.json puis:
+Branch Create your feature branch (git checkout -b feature/amazing-feature)
 
-bash
-dotnet ef database update
-🖥️ Exécution
-Interface Console:
+Commit Commit your changes (git commit -m 'Add amazing feature')
 
-bash
-dotnet run --project AM.UI.Console
-Interface Web:
+Push Push to the branch (git push origin feature/amazing-feature)
 
-bash
-dotnet run --project AM.UI.Web
-Ouvrez ensuite https://localhost:5001 dans votre navigateur.
+PR Open a Pull Request
 
-🤝 Contribution
-Les contributions sont les bienvenues!
+📜 License
+Distributed under the MIT License. See LICENSE for more information.
 
-Forkez le projet
-
-Créez une branche (git checkout -b feature/amazing-feature)
-
-Commitez vos changements (git commit -m 'Add amazing feature')
-
-Poussez la branche (git push origin feature/amazing-feature)
-
-Ouvrez une Pull Request
-
-📄 Licence
-Distribué sous licence MIT. Voir LICENSE pour plus d'informations.
-
-📧 Contact
-Farah Kouki - @farahkouki
-
-💻 Projet développé avec passion | 🌍 Optimisez votre gestion aéroportuaire
+📬 Contact
+Farah Kouki
+📧 Email
+🐦 @farahkouki
